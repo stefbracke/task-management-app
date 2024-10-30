@@ -26,8 +26,5 @@ module.exports = {
     extend: {},
   },
   plugins: [require("daisyui")],
-  daisyui: {
-    themes: ["light", "dark", "cupcake"],
-  },
-  darkMode: "selector",
+  darkMode: "selector", // or 'media'
 };
